@@ -1,0 +1,107 @@
+body {
+    background-image: url(https://www.mckinsey.com/~/media/mckinsey/industries/aerospace%20and%20defense/our%20insights/the%20role%20of%20space%20in%20driving%20sustainability%20security%20and%20development%20on%20earth/the%20role%20of%20space%20in%20driving%20sustainability%20security%20and%20development%20on%20earth1345595606thumb1536x1536.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whole {
+    background-color: transparent;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+}
+
+.whole:hover {
+    #start {
+        transition: opacity 150ms ease;
+        opacity: 0.5;
+    }
+    #resume {
+        transition: opacity 150ms ease;
+        opacity: 0.5;
+    }
+    #pause {
+        transition: opacity 150ms ease;
+        opacity: 0.5;
+    }
+    #reset {
+        transition: opacity 150ms ease;
+        opacity: 0.5;
+    }
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: none;
+}
+
+button {
+    background-color: transparent;
+    height: 25px;
+    width: 25px;
+    border: none;
+    row-gap: 5px;
+}
+
+#start {
+    background-image: url(./start.png);
+    background-size: cover;
+    transition: opacity 150ms ease;
+    opacity: 0;
+}
+
+#start:hover {
+    opacity: 1;
+}
+
+#resume {
+    background-image: url(./start.png);
+    background-size: cover;
+    transition: opacity 150ms ease;
+    opacity: 0;
+}
+
+#resume:hover {
+    opacity: 1;
+}
+
+#pause {
+    background-image: url(./pause.png);
+    background-size: cover;
+    transition: opacity 150ms ease;
+    opacity: 0;
+}
+
+#pause:hover {
+    opacity: 1;
+}
+
+#reset {
+    background-image: url(./reset.png);
+    background-size: cover;
+    margin-right: 20px;
+    transition: opacity 150ms ease;
+    opacity: 0;
+}
+
+#reset:hover {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.timer {
+    filter: drop-shadow(0 0 5px black);
+}
